@@ -1,7 +1,7 @@
 const TMDB_API_URL = "https://api.themoviedb.org/3/";
 const API_KEY = "4541a84d2422f7f36106b1adfb65e810";
 
-const searchInput = document.getElementById("search");
+const searchInput = document.getElementById("search"); /// Id
 const moviesContainer = document.getElementById("movies");
 
 // Hämta filmer från TMDb baserat på sökfrågan
